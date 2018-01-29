@@ -1,6 +1,6 @@
 .container {
     background-color: rgb(113, 187, 129);
-    height: 100%;
+    height: 1000px;
 }
 
 .jombotron {
@@ -10,9 +10,24 @@
     font-size: 5rem;
 }
 
-.gameBoard {
-    padding: 2rem;
+#messageBoard {
+    padding: 2.5rem 2.5rem 0 2.5rem;
     font-family: 'Graduate', cursive;
     color: #eff876;
-    text-shadow: 0 0 3px rgba(41, 40, 40, 0.89)
+    text-shadow: 0 0 3px rgba(41, 40, 40, 0.89);
+    height: 7rem;
+    overflow-y: scroll;
+}
+
+#userConsole {
+    font-family: 'Graduate', cursive;
+    padding-top: 0;
+}
+
+button {
+    width: 6rem;
+}
+
+.hidden {
+    display: none;
 }
